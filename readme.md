@@ -4,6 +4,8 @@ This is a web application built using FastAPI that loads a simple machine learni
 
 The project is part of an assignment for the Fusemachines AI Fellowship. The main goal of the project is to build an app using FastAPI while incorporating the 12-Factor App paradigm and following good development practices. 
 
+On running the project, the user can fill a form for various indicators of breast cancer. The project then provides them the percentage chance that they have the cancer.
+
 The app is merely for demonstration purposes and accuracy of results is not guaranteed.
 
 
