@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Breast Cancer Checker App</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="main-form">
+    <h2>Enter the parameters</h2>
+    <form action="#" method="POST">
+      <div class="form-group">
+        Name
+        <input type="text"  name="name" required />
+      </div>
+
+      <div class="form-columns">
+        <div class="column">
+            <div class="form-group">
+            Mean Radius :
+            <input type="number"  name="mean-radius" step="any" placeholder="Value ranges from 5 - 30" required />
+            </div>
+            <div class="form-group">
+            Mean Texture :
+            <input type="number"  name="mean-texture" step="any" placeholder="Value ranges from 5 - 40" required />
+            </div>
+            <div class="form-group">
+            Mean Perimiter :
+            <input type="number"  name="mean-perimeter" step="any" placeholder="Value ranges from 40 - 200 " required />
+            </div>
+            <div class="form-group">
+            Mean Area :
+            <input type="number"  name="mean-area" step="any" placeholder="Value ranges from 100 - 2500" required />
+            </div>
+            <div class="form-group">
+            Mean Smoothness :
+            <input type="number"  name="mean-smoothness" step="any" placeholder="Value ranges from 0 - 0.2" required />
+            </div>
+        </div>
+
+        <div class="column">
+            <div class="form-group">
+            Mean Compactness :
+            <input type="number"  name="mean-compactness" step="any" placeholder="Value ranges from 0 - 0.5" required />
+            </div>
+            <div class="form-group">
+            Mean Concavity :
+            <input type="number"  name="mean-concavity" step="any" placeholder="Value ranges from 0 - 0.5" required />
+            </div>
+            <div class="form-group">
+            Mean Concave Points :
+            <input type="number"  name="mean-concave-points" step="any" placeholder="Value ranges from 0 - 0.5" required />
+            </div>
+            <div class="form-group">
+            Mean Symmetry :
+            <input type="number" name="mean-symmetry" step="any" placeholder="Value ranges from 0 - 0.5" required />
+            </div>
+            <div class="form-group">
+            Mean Fractal Dimension :
+            <input type="number" name="mean-fractal-dimension" step="any" placeholder="Value ranges from 0 - 0.1" required />
+            </div>
+  </div>
+</div>
+
+      <input type="submit" value="Submit" />
+    </form>
+  </div>
+</body>
+</html>
