@@ -57,3 +57,41 @@ input[type="submit"]:hover {
 .column {
   flex: 1;
 }
+
+.back-link {
+    display: inline-block;
+    margin-top: 1.5rem;
+    color: white;
+    background-color: #4CAF50;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+
+.back-link:hover {
+    background-color: #439b46;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.greeting, .result {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.highlight {
+    color: #0066cc;
+    font-weight: bold;
+}
+.container {
+    background: white;
+    padding: 2rem 3rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
